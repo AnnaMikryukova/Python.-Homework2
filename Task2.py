@@ -6,7 +6,6 @@
 N = int(input('Введите число N: '))
 a = 1
 for i in range(N):
-    i += 1
-    a *= i
-    
-    print(a, end = ' ')
+	i += 1
+	a *= i
+	print(a, end = ' ')
